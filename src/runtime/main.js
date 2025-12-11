@@ -127,11 +127,11 @@ const findTemplateInHtml = (templateFileName, html) => {
 
 const getCommentContent = (templateFileName, type) => {
   if (type === 'begin') {
-    return `<!-- BEGIN OUTPUT from '${templateFileName}' -->`;
+    return `<!-- 💡 BEGIN CUSTOM TEMPLATE OUTPUT from '${templateFileName}' -->`;
   }
 
   if (type === 'end') {
-    return `<!-- END OUTPUT from '${templateFileName}' -->`;
+    return `<!-- END CUSTOM TEMPLATE OUTPUT from '${templateFileName}' -->`;
   }
 }
 
