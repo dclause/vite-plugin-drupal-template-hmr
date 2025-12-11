@@ -29,6 +29,10 @@
   "scripts": {
     "build": "npx tsup src/index.js --format esm && npx tsup src/runtime/main.js --format esm -d dist/runtime",
     "test": "echo \"Error: no test specified\" && exit 1",
-	"prepare": "npm run build"
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
   }
 }
